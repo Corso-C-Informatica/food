@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { FoodService } from 'src/app/services/food.service';
 import { food } from 'src/app/shared/model/Food';
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',

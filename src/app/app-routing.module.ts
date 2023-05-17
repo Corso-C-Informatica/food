@@ -5,6 +5,7 @@ import { FoodPageComponent } from './components/pages/food-page/food-page.compon
 import { HomeComponent } from './components/pages/home/home.component';
 // import {TagComponent} from './components/pages/tag/tag.component'
 
+
 const routes: Routes = [
   {
     path:'', component:HomeComponent

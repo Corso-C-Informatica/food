@@ -9,7 +9,7 @@ interface Tag {
   id: number;
   name: string;
   description: string;
-  // Add more properties as needed
+
 }
 
 @Injectable({

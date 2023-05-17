@@ -5,3 +5,4 @@ export class Cart{
   totalPrice:number =0;
   totalCount:number =0;
 }
+

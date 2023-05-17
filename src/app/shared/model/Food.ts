@@ -10,3 +10,4 @@ export class food{
   cookTime!:string;
 
 }
+

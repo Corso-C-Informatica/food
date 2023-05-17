@@ -17,6 +17,7 @@ export class FoodPageComponent implements OnInit {
     private route: ActivatedRoute,
     private cartService: CartService
   ) {}
+  
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {

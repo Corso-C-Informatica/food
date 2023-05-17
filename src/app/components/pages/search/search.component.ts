@@ -7,7 +7,7 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent {
-
+  
   searchTerm = ''
   constructor(activatedRoute:ActivatedRoute, private router:Router){
     activatedRoute.params.subscribe((params)=>{
