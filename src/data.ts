@@ -11,7 +11,7 @@ export const sample_foods: food[] = [
       origins: ['italy'],
       stars: 4.5,
       imageUrl: 'assets/food-1.jpg',
-      tags: ['FastFood', 'Pizza', 'Lunch'],
+      tags: ['FastFood', 'Pizza', 'Pranzo '],
     },
     {
       id:'2',
@@ -22,7 +22,7 @@ export const sample_foods: food[] = [
       origins: ['persia', 'middle east', 'china'],
       stars: 4.7,
       imageUrl: 'assets/food-2.jpg',
-      tags: ['SlowFood', 'Lunch'],
+      tags: ['SlowFood', 'Pranzo '],
     },
     {
       id:'3',
@@ -66,7 +66,7 @@ export const sample_foods: food[] = [
       origins: ['italy'],
       stars: 4.0,
       imageUrl: 'assets/food-6.jpg',
-      tags: ['FastFood', 'Pizza', 'Lunch'],
+      tags: ['FastFood', 'Pizza', 'Pranzo '],
     },
     {
       id:'7',
@@ -77,28 +77,19 @@ export const sample_foods: food[] = [
       origins: ['Indian'],
       stars: 4.0,
       imageUrl: 'assets/food-7.jpg',
-      tags: ['FastFood', 'Burger', 'Lunch'],
+      tags: ['FastFood', 'Burger', 'pranzo '],
     },
     {
       id:'8',
-      name: 'Vegetables Magento Pizza',
+      name: ' Pizza',
       price: 9,
       cookTime: '45-50',
       favorite: false,
-      origins: ['indian'],
+      origins: ['italia '],
       stars: 4.0,
       imageUrl: 'assets/food-8.jpg',
-      tags: ['FastFood', 'Pizza', 'Lunch'],
+      tags: ['FastFood', 'Pizza', 'Pranzo '],
     },
   ]
 
-  // export const sample_tags:Tag[] = [
-  //   { name: 'All', count: 8 },
-  //   { name: 'FastFood', count: 4 },
-  //   { name: 'Pizza', count: 3 },
-  //   { name: 'Lunch', count: 3 },
-  //   { name: 'SlowFood', count: 2 },
-  //   { name: 'Hamburger', count: 2 },
-  //   { name: 'Fry', count: 1 },
-  //   { name: 'Soup', count: 1 },
-  // ]
+
