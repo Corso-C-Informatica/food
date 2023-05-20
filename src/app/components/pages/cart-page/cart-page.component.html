@@ -12,6 +12,9 @@
       </a>
     </div>
     <div>
+      <!---
+      con la select permettiamo di scegliere di aggiungre fino a 5 item dello stesso piatto       -->
+      
       <select #quantitySelect [value]="cartItem.quantity" (change)="changeQuantity(cartItem, quantitySelect.value)">
         <option>1</option>
         <option>2</option>

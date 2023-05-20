@@ -1,3 +1,25 @@
+#----------------------parte1 ---------------------------
+
+add header component 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 obbiettivo: 
 creare una applicazione angualr che funzioni
 spoiler non va niente 

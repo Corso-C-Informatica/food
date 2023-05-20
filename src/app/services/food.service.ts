@@ -25,25 +25,25 @@ export class FoodService {
     return this.httpClient.get<food[]>(FOODS_URL)
   }
 
-  // search food
+  // restituisce un observable
+  //restituisce l'elenco completo di tutti i prodotti disponibili.
   getAllFoodBySearchTerm(searchTerm:string){
     return this.httpClient.get<food[]>(FOODS_BY_SEARCH_URL + searchTerm)
   }
 
   
-
-  // get All tag
+// restitusice tutti i tag disponibili 
   getAllTags():Observable<Tag[]>{
     return this.httpClient.get<Tag[]>(FOODS_TAGS_URL)
   }
   
 
-  //  get food by tags
+  // è un observable che emette tutti i prodotti che corrispondono al tag specificato.
    getAllFoodByTag(tag:string):Observable<food[]>{
     return tag === "All"? this.getAll():this.httpClient.get<food[]>(FOODS_BY_TAG_URL+ tag)
   }
 
-  // get food by Id
+  // un observable che emmette i  dati del prodotto con l'ID specificato.
   getFoodById(foodId:string):Observable<food>{
     return this.httpClient.get<food>(FOODS_BY_ID_URL +foodId)
   }
